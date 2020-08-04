@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tic Tac Toe</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts.css">
+
+
+</head>
+
+<body>
+   
+  <h1>Tic Tac Toe</h1>
+    <div>
+
+	<table>
+		<tr>
+			<td class="cell" id="0" ></td>
+			<td class="cell" id="1" ></td>
+			<td class="cell" id="2" ></td>
+		</tr>
+		<tr>
+			<td class="cell" id="3" ></td>
+			<td class="cell" id="4" ></td>
+			<td class="cell" id="5" ></td>
+		</tr>
+		<tr>
+			<td class="cell" id="6" ></td>
+			<td class="cell" id="7" ></td>
+			<td class="cell" id="8" ></td>
+		</tr>
+	</table>
+    </div>
+	
+	<div class="float-container">
+	<div class="form-check form-check-inline">
+	       <input class="form-check-input"  type="radio" id="easy" name="diff" value="easy">
+            <label >Easy</label><br>
+            <input class="form-check-input"  type="radio" id="mod" name="diff" value="moderate">
+            <label >Moderate</label><br>
+            <input class="form-check-input"  type="radio" id="hard" name="diff" value="hard">
+            <label >Hard</label><br>
+            
+        </div>
+	
+	<div class="form-check form-check-inline">
+	      <input class="form-check-input"  type="radio" id="single" name="num" value="single">
+            <label >Single Player</label><br>
+            
+            <input class="form-check-input" type="radio" id="multi" name="num" value="multi">
+            <label >Two Player</label><br>
+            
+        </div>
+    </div>
+    
+    <div class="form-check form-check-inline">
+	     <div class="endgame" style="position: relative; padding: 30px; left:150px;">
+		<div class="text"></div>
+	</div>
+    </div>
+	
+	<button type="button" class="btn btn-primary" onClick="startGame()">New Game</button>
+	
+	<div class="pics">
+	    <img src="minions_PNG86.png "  height="45%" width="10%" style="position: absolute; right: 160px;">
+	</div>
+  
+ 
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+body {
+position: relative;
+z-index: 0;
+}
+
+td {
+	border:  solid;
+	height:  100px;
+	width:  100px;
+	text-align:  center;
+	font-size:  60px;
+	cursor: pointer;
+}
+.float-container {
+    
+    padding: 20px;
+}
+
+.form-check {
+    width: 30%;
+    float: left;
+    padding: 20px;
+   
+}  
+
+table {
+    align-item: center;
+    position: relative;
+  right: -750px;
+  top: 70px;
+  width: 320px;
+  height: 200px;
+    padding-left: 100px;
+    top:60%
+    padding-bottom: 20px;
+  border-collapse: collapse;
+    font-family: 'Permanent Marker', cursive;
+    color: black;
+  
+}
+
+button
+{
+    position: absolute;
+    top:80%;
+    left:200px;
+    font-size: 150%;
+    font-family: 'Chewy', cursive;
+    
+}
+
+div
+{    top:-200px;
+    font-family: 'Acme', sans-serif;
+    font-size: 120%;
+    color: #347C2C;
+}
+
+table tr:first-child td {
+	border-top: 0;}
+
+table tr:last-child td {
+	border-bottom: 0;}
+
+table tr td:first-child {
+	border-left: 0;}
+
+table tr td:last-child {
+	border-right: 0;}
+
+h1{
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    font-family: 'Ranchers', cursive;
+    font-size: 550%;
+    color: #56A5EC;
+}
+
+.endgame
+{
+  top: -200px;
+    
+}
+
+
